@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: hardware-store-back
+  webflux:
+    base-path: /api/v1
+  data:
+    mongodb:
+      authetication-database: admin
+      uri:
+      database: hardware_store
