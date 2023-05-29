@@ -15,8 +15,8 @@ public class CrudBillService {
         this.billRepository = billRepository;
     }
 
-    public void createBill(Bill bill){
-        billRepository.saveBill(bill);
+    public Bill createBill(Bill bill){
+        return billRepository.saveBill(bill);
     }
 
     public ArrayList<Bill> getAllBills(){
